@@ -22,6 +22,7 @@ const userSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
+    image: String,
     token: {
         type: String
     },
@@ -32,4 +33,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User', userSchema)
 
-mongoose.model.exports = {User}
+module.exports = { User };
