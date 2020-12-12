@@ -4,6 +4,7 @@
 <p>1. npm install로 서버 dependencies 설치</p>
 <p>2. cd client, npm install로 클라이언트 dependencies 설치</p>
 <p>3. MongoDB 로그인, 클러스터 생성 후 아이디, 패스워드를 /server/config/dev.js에 추가</p>
+<p>=&gt module.exports = { mongoURI: '' };</p>
 <p>4. npm run dev 으로 서버와 클라이언트 실행</p>
 <p>Landing Page -&gt; http://localhost:3000/</p>
 <p>Login Page -&gt; http://localhost:3000/login</p>
