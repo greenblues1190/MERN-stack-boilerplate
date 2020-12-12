@@ -90,10 +90,6 @@ userSchema.statics.findByToken = function(token, cb) {
                 cb(null, user);
         });
     });
-
-    jwt.verify(token, 'shhhhh', function(err, decoded) {
-        console.log(decoded)
-    })
 };
 
 const User = mongoose.model('User', userSchema)
